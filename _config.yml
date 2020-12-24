@@ -13,7 +13,7 @@ baseurl: /texture
 sass:
   sass_dir: _sass
 
-permalink: /posts/:title/
+permalink: /_posts/:title/
 texture:
   title: AWS Labs
   tagline: Developer. Designer
