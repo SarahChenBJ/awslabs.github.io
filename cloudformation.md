@@ -8,6 +8,8 @@
 ## 目的
 我们将通过两个 AWS Cloudformation 模板, 部署一套可靠的多层 AWS 云端架构. 其中一个模板是用来部署一个 Amazon VPC, 另一个模板是用来部署一个搭建在跨 AZ(Available Zone) 的多 EC2 实例的三层 web 服务器:
 
+![cloudformation-webarchitecture] (https://github.com/SarahChenBJ/awslabs.github.io/blob/main/_pics/cloudformation-webarchitecture.png?raw=true)
+
 
 
 在完成本文阅读和时间后, 我们将能够:
