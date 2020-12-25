@@ -2,13 +2,15 @@
 
 ## 目录
 - [目的](#目的)
-- []
-在这个系列中, 我们通过部署一套电视节目推荐系统, 来学习如何使用 [AWS Cloudformation](https://aws.amazon.com/cloudformation/) 配置和部署可靠且低耦合的架构 (本文的全部时间内容来自 [AWS Well-architected Labs](https://wellarchitectedlabs.com/) )
+- [前提准备](#前提准备)
+
+
+在这个系列中, 我们通过部署一套电视节目推荐系统, 来学习如何使用 [AWS Cloudformation](https://aws.amazon.com/cloudformation/) 配置和部署可靠且低耦合的架构 (本文的试验内容来自 [AWS Well-architected Labs](https://wellarchitectedlabs.com/) )
 
 ## 目的
 我们将通过两个 AWS Cloudformation 模板, 部署一套可靠的多层 AWS 云端架构. 其中一个模板是用来部署一个 Amazon VPC, 另一个模板是用来部署一个搭建在跨 AZ(Available Zone) 的多 EC2 实例的三层 web 服务器:
 
-![cloudformation-webarchitecture] (https://github.com/SarahChenBJ/awslabs.github.io/blob/main/_pics/cloudformation-webarchitecture.png?raw=true)
+![cloudformation-webarchitecture](https://github.com/SarahChenBJ/awslabs.github.io/blob/main/_pics/cloudformation-webarchitecture.png?raw=true)
 
 
 
