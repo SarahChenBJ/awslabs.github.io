@@ -50,7 +50,7 @@ _此处, 我们可以将两个文件存入S3 bucket, CloudFormation 支持直接
 9. 这时, 我们在 yaml 文件中描述的资源已经在被 CloudFormation 创建了. 我们需要等待几分钟, 知道 stack 的状态从`CREATE_IN_PROGRESS` 到 `CREATE_COMPLETE`. 
 ## 部署应用
 当上一步中 _**WebApp1-VPC**_ stack 状态变为 `CREATE_COMPLETE`, 我们就可以开始在 CloudFormation 中部署 Web 相关的资源了.
-
+ TBD
 
 # 理解
 ## 架构理解
@@ -75,3 +75,4 @@ _此处, 我们可以将两个文件存入S3 bucket, CloudFormation 支持直接
 当然, 我们还可以把将我们的应用部署到多 regions 以提高可靠性. 另外, 我们还可以为每一层添加监控, 错误检测及自愈策略. 
 
 ## CloudFormation 理解
+TBD
